@@ -1,4 +1,4 @@
-# Python°æ±¾£¬½¨ÒéÎ¬»¤£¬·½±ãÍØÕ¹£¨ÎÒ¾õµÃMATLAB²»ÐÐ£©
+# Pythonç‰ˆæœ¬ï¼Œå»ºè®®ç»´æŠ¤ï¼Œæ–¹ä¾¿æ‹“å±•ï¼ˆæˆ‘è§‰å¾—MATLABä¸è¡Œï¼‰
 
-ÒÑ¾­°üÀ¨OTSUËã·¨µÄÊµÏÖ
-fitness: ÊäÈëÒ»ÕÅÍ¼Æ¬¼°Ò»×éãÐÖµ£¬¿ÉÇóµÃÒ»¸ö·½²î
+å·²ç»åŒ…æ‹¬OTSUç®—æ³•çš„å®žçŽ°
+fitness: è¾“å…¥ä¸€å¼ å›¾ç‰‡åŠä¸€ç»„é˜ˆå€¼ï¼Œå¯æ±‚å¾—ä¸€ä¸ªæ–¹å·®

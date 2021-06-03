@@ -7,6 +7,7 @@ class myImage():
     def __init__(self, path):
         "输入参数为字符串，表示打开路径+文件名"
         self.pic = cv2.imread(path, cv2.IMREAD_GRAYSCALE)
+        self.blur = cv2.GaussianBlur(self.pic, (5, 5), 0)
 
     def ShowPic(self, windowname):
         "输入参数为字符串，表示打开的窗口名"
