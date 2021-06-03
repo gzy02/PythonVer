@@ -7,6 +7,7 @@ savepath = "test.jpg"
 
 def Main():
     myimg = myImage(path)
+    print(type(myimg.pic))
     mysum = PrefixSum(myimg.pic)
     print(mysum.fitness([65, 67]))
     '''

@@ -55,8 +55,7 @@ class PrefixSum():
         if(w[cnt] == 0):
             return -1
         u[cnt] = (self.SumWpixPro[GrayScale-1]-self.SumWpixPro[tep])/w[cnt]
-        print(w)
-        print(u)
+
         for i in range(cnt+1):
             deltatep += w[i]*pow(u[i]-self.SumWpixPro[GrayScale-1], 2)
         return deltatep
