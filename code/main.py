@@ -6,7 +6,7 @@ from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
 from matplotlib import cm
 import cv2
-path = "2.png"
+path = "3.jpg"
 savepath = "test.jpg"
 
 
@@ -23,13 +23,13 @@ def Main():
     time_start = time.time()
     print("Python OTSU:", mysum.OtsuSolve(num))
     time_end = time.time()
-    print('totally cost%fs' % (time_end-time_start))
+    print('totally cost:%fs' % (time_end-time_start))
     print("C++ OTSU:", mysum.CppOtsuSolve(num)[0])
     time_end2 = time.time()
-    print('totally cost%fs' % (time_end2-time_end))
+    print('totally cost:%fs' % (time_end2-time_end))
     print("C++ GA:", mysum.CppGASolve(num)[0])
     time_end3 = time.time()
-    print('totally cost%fs' % (time_end3-time_end2))
+    print('totally cost:%fs' % (time_end3-time_end2))
     cv2.imshow("ret", mysum.CppGASolve(num)[1])
     cv2.imwrite(savepath, mysum.CppGASolve(num)[1])
     cv2.waitKey(0)
