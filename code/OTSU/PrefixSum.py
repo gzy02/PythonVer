@@ -123,7 +123,9 @@ class PrefixSum():
         ret_img = np.zeros(dtype=np.uint8, shape=(rows, cols, 1))
         dll.ga_open_cv_dll(rows, cols, self.img.ctypes.data_as(
             C.POINTER(C.c_ubyte)), ret_img.ctypes.data_as(C.POINTER(C.c_ubyte)), input, N)
-        return list(input), ret_img
+        lis = list(input)
+        lis.sort(reverse=True)
+        return lis, ret_img
         #cv2.imshow("ret", ret_img)
         # cv2.waitKey(0)
 
